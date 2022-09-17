@@ -7,7 +7,7 @@ function Converter() {
 
   
   var elementoValorConvertido = document.getElementById("valorConvertido");
-  var valorConvertido = "O valor em Real é de R$" + valorEmDolar;
+  var valorConvertido = "O valor em reais é R$" + valorEmDolar;
   elementoValorConvertido.innerHTML = valorConvertido;
   event.preventDefault()
 }
